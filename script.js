@@ -25,16 +25,17 @@ function toggleTitle() {
 
 function toggleFontColor() {
     const contenido = document.querySelector('.Contenido');
-    const titulo = document.querySelector('.Titulo-Contenido');
+    const titulo = document.querySelector('.Titulo-Contenido h2');
 
-    if (titulo.style.color === 'black' || titulo.style.color === '') {
-        titulo.style.color = 'blue';
-        contenido.style.fontFamily = 'Arial, sans-serif';
-    } else {
-        titulo.style.color = 'black';
+    if (contenido.style.fontFamily === 'Arial, sans-serif') {
         contenido.style.fontFamily = '';
+        titulo.style.color = '#305966';
+    } else {
+        contenido.style.fontFamily = 'Arial, sans-serif';
+        titulo.style.color = 'black';
     }
 }
+
 
 function toggleImage() {
     const portada = document.querySelector('.Portada');
@@ -45,5 +46,4 @@ function toggleImage() {
     } else {
         alert('Esa no es una URL válida.');
     }
-}
-
+}  
