@@ -30,3 +30,33 @@ body {
   column-gap: 2rem;
   text-align: justify;
 }
+
+.Botones {
+  position: fixed;
+  right: 0;
+  width: 250px;
+  list-style-type: none;
+  top: 200px;
+  padding: 1rem;
+}
+
+.Columnas,
+.Titulo-pagina,
+.color-fuente,
+.Imagen {
+  width: 250px;
+  padding: 1rem;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  background-color: #26523c;
+  color: white;
+  border-color: #347070;
+}
+
+h1 {
+  color: #2f4964;
+}
+
+h2 {
+  color: #305966;
+}

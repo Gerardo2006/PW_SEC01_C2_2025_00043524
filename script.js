@@ -43,7 +43,7 @@ function toggleImage() {
     if (nuevaURL && nuevaURL.trim() !== '') {
         portada.src = nuevaURL;
     } else {
-        alert('No se ingresó una URL válida.');
+        alert('Esa no es una URL válida.');
     }
 }
 
