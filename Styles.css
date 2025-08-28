@@ -1,7 +1,7 @@
 body {
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #fdfdfd;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fdfdfd;
 }
 
 .Datos {
@@ -12,12 +12,21 @@ body {
   list-style-type: none;
 }
 
+.Portada {
+  position: fixed;
+  left: 0;
+  top: 350px;
+  max-width: 250px;
+  display: block;
+  height: auto;
+}
+
 .Datos li {
   margin-bottom: 0.5rem;
 }
 
 .Contenido {
   column-count: 2;
-  column-gap: 2rem; /* espacio entre columnas */
+  column-gap: 2rem;
   text-align: justify;
 }

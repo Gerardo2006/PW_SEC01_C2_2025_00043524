@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>El ensayo sobre la ceguera</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 
 <body>
@@ -18,6 +18,8 @@
         <li><strong>Año de publicación:</strong> 1995</li>
         <li><strong>ISBN:</strong> 9788490628720</li>
     </ul>
+
+    <img class="Portada" src="Imagenes/Ensayos sobre la ceguera.webp" alt="Portada del libro">
 
     <div class="Titulo-Descripción">
         <h2>Descripción del libro</h2>
@@ -45,12 +47,11 @@
     <div class="Titulo-Contenido">
         <h2>Contenido del libro</h2>
     </div>
-    
+
     <div class="Contenido">
         <p>
             La novela se desarrolla en torno a la expansión de una misteriosa ceguera que transforma radicalmente la
-            vida
-            de una ciudad. A medida que la epidemia se propaga, el orden social se derrumba: los infectados son
+            vida de una ciudad. A medida que la epidemia se propaga, el orden social se derrumba: los infectados son
             aislados, la violencia se intensifica, y la lucha por la comida y la dignidad se vuelve desesperada. El
             manicomio donde son confinados se convierte en un microcosmos de la humanidad en crisis, donde afloran tanto
             los instintos más bajos como gestos de solidaridad.
@@ -68,6 +69,15 @@
             de relacionarnos con los demás?
         </p>
     </div>
-</body>
 
+    <button class="Columnas" onclick="toggleColumnCount()">Cambiar a 1 columna</button>
+
+    <button class="Titulo-pagina" onclick="toggleTitle()">Cambiar título</button>
+
+    <button class="color-fuente" onclick="toggleFontColor()">Cambiar color de fuente</button>
+
+    <button class="Imagen" onclick="toggleImage()">Cambiar imagen</button>
+
+    <script src="script.js"></script>
+</body>
 </html>
